@@ -1,0 +1,17 @@
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\WebServiceWrapper.deps.json
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\WebServiceWrapper.runtimeconfig.json
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\WebServiceWrapper.runtimeconfig.dev.json
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\WebServiceWrapper.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\WebServiceWrapper.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\App.Data.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\App.Service.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\App.Service.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netcoreapp3.1\App.Data.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.csprojAssemblyReference.cache
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.csproj.CoreCompileInputs.cache
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.AssemblyInfoInputs.cache
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.AssemblyInfo.cs
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.csproj.CopyComplete
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netcoreapp3.1\WebServiceWrapper.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netstandard2.0\WebServiceWrapper.deps.json
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netstandard2.0\WebServiceWrapper.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\bin\Debug\netstandard2.0\WebServiceWrapper.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.csproj.CoreCompileInputs.cache
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.AssemblyInfoInputs.cache
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.AssemblyInfo.cs
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.dll
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.pdb
+D:\ClaimWorld\SimpleWSApp\WebServiceWrapper\obj\Debug\netstandard2.0\WebServiceWrapper.csprojAssemblyReference.cache

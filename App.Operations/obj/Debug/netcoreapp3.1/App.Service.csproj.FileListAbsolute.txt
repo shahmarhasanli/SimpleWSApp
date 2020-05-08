@@ -1,0 +1,15 @@
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.deps.json
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.runtimeconfig.json
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.runtimeconfig.dev.json
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.dll
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.pdb
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Data.dll
+D:\ClaimWorld\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Data.pdb
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csprojAssemblyReference.cache
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csproj.CoreCompileInputs.cache
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.AssemblyInfoInputs.cache
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.AssemblyInfo.cs
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csproj.CopyComplete
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.dll
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.pdb
+D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.genruntimeconfig.cache
