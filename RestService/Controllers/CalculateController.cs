@@ -11,7 +11,6 @@ using WebServiceWrapper;
 namespace RestService.Controllers
 {
     [ApiController]
-    [Produces("application/json")]
     [Route("[controller]")]
     public class CalculateController : ControllerBase
     {
