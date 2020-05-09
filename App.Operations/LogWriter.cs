@@ -19,7 +19,6 @@ namespace App.Service
             sqlcommand.Parameters.AddWithValue("@response_value", c.Response);
             sqlcommand.Parameters.AddWithValue("@type_code", c.type);
             sqlcommand.Parameters.AddWithValue("@linked_id", c.linked_id);
-            sqlcommand.Parameters.AddWithValue("@insert_date",DateTime.Now);
             lastLoggedId = (int)sqlcommand.ExecuteScalar();
             }
         }
@@ -27,7 +26,7 @@ namespace App.Service
         {
             using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["OnlyLoggingLimitedConnectionString"].ConnectionString))
             {
-                var sqlcommand = new SqlCommand(queryInsert, connection);
+                var sqlcommand = new SqlCommand(queryLastId , connection);
                 return (int)sqlcommand.ExecuteScalar();
             }
         }
