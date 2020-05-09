@@ -31,7 +31,7 @@ namespace RestService
             services.AddControllers();
             services.AddDbContext<DataHouseDb>(opt => opt.UseSqlServer
           (Configuration.GetConnectionString("DefaultConnectionString")));
-            services.AddScoped<ILogWriter>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
