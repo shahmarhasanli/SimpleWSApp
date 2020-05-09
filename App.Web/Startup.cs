@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using App.Service;
+using App.Data.Database;
+using App.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace App.Web
 {
@@ -25,6 +28,9 @@ namespace App.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<DataHouseDb>(opt=>opt.UseSqlServer
+            (Configuration.GetConnectionString("DefaultConnectionString")));
+            services.AddScoped<ILogWriter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

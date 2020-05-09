@@ -1,10 +1,10 @@
 ﻿using App.Service;
 using App.Service.Models;
 using CalculatorSoapWs;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity.Infrastructure.Interception;
 using System.Runtime.Serialization;
 using System.Security.Cryptography.Xml;
 using System.ServiceModel;
@@ -21,11 +21,13 @@ namespace WebServiceWrapper
     {
         private WsCatch SoapCatch;
         private WsCatch RestCatch;
-        public WsSoapWrapper()
+        private IConfiguration _configuration;
+        public WsSoapWrapper(IConfiguration  configuration)
         {
             Client = new CalculatorSoapClient(CalculatorSoapClient.EndpointConfiguration.CalculatorSoap);
              SoapCatch = new WsCatch() { type=Service_Type.Soap };
             RestCatch = new WsCatch() { type = Service_Type.Rest };
+            _configuration = configuration;
         }
         public object BeforeSendRequest(
           ref Message request,
@@ -43,7 +45,8 @@ namespace WebServiceWrapper
             SoapCatch.Request = srequest;
             SoapCatch.Response = sresponse;
             SoapCatch.type = Service_Type.Soap;
-            WsLogWriter.WriteLinkedWsCatches(new List<WsCatch>() { SoapCatch, RestCatch });
+            WsLogWriter logWriter =new WsLogWriter(_configuration);
+            logWriter.WriteLinkedWsCatches(new List<WsCatch>() { SoapCatch, RestCatch });
         }
         CalculatorSoapWs.CalculatorSoapClient Client;
        

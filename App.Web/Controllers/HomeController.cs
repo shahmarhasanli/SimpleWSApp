@@ -30,6 +30,7 @@ namespace App.Web.Controllers
         {
          
             Request request = new Request() { intA=16,intB=4};
+            
             OperationResult response=RestApiCall.ExecuteApiMethod("http://localhost:53457/calculate/add",request);
             
             return View(response);

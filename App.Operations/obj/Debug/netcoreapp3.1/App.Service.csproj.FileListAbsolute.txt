@@ -13,3 +13,14 @@ D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csp
 D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.dll
 D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.pdb
 D:\ClaimWorld\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.genruntimeconfig.cache
+E:\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.deps.json
+E:\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.dll
+E:\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Service.pdb
+E:\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Data.dll
+E:\SimpleWSApp\App.Operations\bin\Debug\netcoreapp3.1\App.Data.pdb
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csprojAssemblyReference.cache
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.AssemblyInfoInputs.cache
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.AssemblyInfo.cs
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.csproj.CopyComplete
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.dll
+E:\SimpleWSApp\App.Operations\obj\Debug\netcoreapp3.1\App.Service.pdb

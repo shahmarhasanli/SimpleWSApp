@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ClaimWorld\\SimpleWSApp\\App.Web\\App.Web.csproj": {}
+    "E:\\SimpleWSApp\\App.Web\\App.Web.csproj": {}
   },
   "projects": {
-    "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\App.Data.csproj": {
+    "E:\\SimpleWSApp\\App.Data\\App.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\App.Data.csproj",
+        "projectUniqueName": "E:\\SimpleWSApp\\App.Data\\App.Data.csproj",
         "projectName": "App.Data",
-        "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\App.Data.csproj",
-        "packagesPath": "C:\\Users\\shahmar.hasanli\\.nuget\\packages\\",
-        "outputPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\obj\\",
+        "projectPath": "E:\\SimpleWSApp\\App.Data\\App.Data.csproj",
+        "packagesPath": "C:\\Users\\Shahmar\\.nuget\\packages\\",
+        "outputPath": "E:\\SimpleWSApp\\App.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahmar.hasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Shahmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -43,9 +41,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
@@ -63,27 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
+    "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj",
+        "projectUniqueName": "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj",
         "projectName": "App.Service",
-        "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj",
-        "packagesPath": "C:\\Users\\shahmar.hasanli\\.nuget\\packages\\",
-        "outputPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\obj\\",
+        "projectPath": "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj",
+        "packagesPath": "C:\\Users\\Shahmar\\.nuget\\packages\\",
+        "outputPath": "E:\\SimpleWSApp\\App.Operations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahmar.hasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Shahmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\App.Data.csproj": {
-                "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Data\\App.Data.csproj"
+              "E:\\SimpleWSApp\\App.Data\\App.Data.csproj": {
+                "projectPath": "E:\\SimpleWSApp\\App.Data\\App.Data.csproj"
               }
             }
           }
@@ -113,6 +113,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -130,27 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ClaimWorld\\SimpleWSApp\\App.Web\\App.Web.csproj": {
+    "E:\\SimpleWSApp\\App.Web\\App.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClaimWorld\\SimpleWSApp\\App.Web\\App.Web.csproj",
+        "projectUniqueName": "E:\\SimpleWSApp\\App.Web\\App.Web.csproj",
         "projectName": "App.Web",
-        "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Web\\App.Web.csproj",
-        "packagesPath": "C:\\Users\\shahmar.hasanli\\.nuget\\packages\\",
-        "outputPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Web\\obj\\",
+        "projectPath": "E:\\SimpleWSApp\\App.Web\\App.Web.csproj",
+        "packagesPath": "C:\\Users\\Shahmar\\.nuget\\packages\\",
+        "outputPath": "E:\\SimpleWSApp\\App.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahmar.hasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Shahmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -162,11 +168,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
-                "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj"
+              "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
+                "projectPath": "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj"
               },
-              "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj": {
-                "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj"
+              "E:\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj": {
+                "projectPath": "E:\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj"
               }
             }
           }
@@ -180,6 +186,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -207,27 +221,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj": {
+    "E:\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj",
+        "projectUniqueName": "E:\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj",
         "projectName": "WebServiceWrapper",
-        "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj",
-        "packagesPath": "C:\\Users\\shahmar.hasanli\\.nuget\\packages\\",
-        "outputPath": "D:\\ClaimWorld\\SimpleWSApp\\WebServiceWrapper\\obj\\",
+        "projectPath": "E:\\SimpleWSApp\\WebServiceWrapper\\WebServiceWrapper.csproj",
+        "packagesPath": "C:\\Users\\Shahmar\\.nuget\\packages\\",
+        "outputPath": "E:\\SimpleWSApp\\WebServiceWrapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahmar.hasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Shahmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -239,8 +251,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
-                "projectPath": "D:\\ClaimWorld\\SimpleWSApp\\App.Operations\\App.Service.csproj"
+              "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj": {
+                "projectPath": "E:\\SimpleWSApp\\App.Operations\\App.Service.csproj"
               }
             }
           }
@@ -264,7 +276,7 @@
             },
             "System.ServiceModel.Http": {
               "target": "Package",
-              "version": "[4.4.*, )"
+              "version": "[4.7.0, )"
             },
             "System.ServiceModel.NetTcp": {
               "target": "Package",
@@ -290,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using App.Service.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using WebServiceWrapper;
@@ -17,43 +18,44 @@ namespace RestService.Controllers
       
 
         private readonly ILogger<CalculateController> _logger;
-
-        public CalculateController(ILogger<CalculateController> logger)
+        private readonly IConfiguration _configuration;
+        public CalculateController(ILogger<CalculateController> logger,IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
         [HttpPost]
         [Route("~/calculate/add")]
-        public async Task<AddResponse> AddAsync([FromBody]Request request)
+        public ActionResult<AddResponse> AddAsync([FromBody]Request request)
         {
-            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper();
-            var result = await SoapWs.AddAsync(request);
-            return result;
+            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper(_configuration);
+            var result = SoapWs.AddAsync(request);
+            return Ok(result);
         }
         [HttpPost]
         [Route("~/calculate/subtract")]
-        public async Task<SubtractResponse> SubtractAsync([FromBody]Request request)
+        public ActionResult<SubtractResponse> SubtractAsync([FromBody]Request request)
         {
             
-            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper();
-            var result = await SoapWs.SubtractAsync(request);
-            return result;
+            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper(_configuration);
+            var result = SoapWs.SubtractAsync(request);
+            return Ok(result);
         }
         [HttpPost]
         [Route("~/calculate/multiply")]
-        public async Task<MultiplyResponse> MultiplyAsync([FromBody]Request request)
+        public ActionResult<MultiplyResponse> MultiplyAsync([FromBody]Request request)
         {
-            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper();
-            var result = await SoapWs.MultiplyAsync(request);
-            return result;
+            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper(_configuration);
+            var result =  SoapWs.MultiplyAsync(request);
+            return Ok(result);
         }
         [HttpPost]
         [Route("~/calculate/divide")]
-        public async Task<DivideResponse> DivideAsync([FromBody]Request request)
+        public ActionResult<DivideResponse> DivideAsync([FromBody]Request request)
         {
-            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper();
-            var result = await SoapWs.DivideAsync(request);
-            return result;
+            WebServiceWrapper.WsSoapWrapper SoapWs = new WsSoapWrapper(_configuration);
+            var result = SoapWs.DivideAsync(request);
+            return Ok(result);
         }
         
     }

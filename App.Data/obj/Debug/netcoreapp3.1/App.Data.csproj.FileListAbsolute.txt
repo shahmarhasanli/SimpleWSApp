@@ -9,3 +9,11 @@ D:\ClaimWorld\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.AssemblyInfo
 D:\ClaimWorld\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.dll
 D:\ClaimWorld\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.pdb
 D:\ClaimWorld\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.genruntimeconfig.cache
+E:\SimpleWSApp\App.Data\bin\Debug\netcoreapp3.1\App.Data.deps.json
+E:\SimpleWSApp\App.Data\bin\Debug\netcoreapp3.1\App.Data.dll
+E:\SimpleWSApp\App.Data\bin\Debug\netcoreapp3.1\App.Data.pdb
+E:\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.AssemblyInfoInputs.cache
+E:\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.AssemblyInfo.cs
+E:\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.dll
+E:\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.pdb
+E:\SimpleWSApp\App.Data\obj\Debug\netcoreapp3.1\App.Data.csprojAssemblyReference.cache

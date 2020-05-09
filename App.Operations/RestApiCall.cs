@@ -1,5 +1,6 @@
 ﻿using App.Service;
 using App.Service.Models;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ namespace App.Service
     {
         const string RestWsUserName = "";
         const string RestWsPassword = "";
-        public static OperationResult ExecuteApiMethod(string Url, Object requestData, string requestMethodType = "POST")
+     
+        public static  OperationResult ExecuteApiMethod(string Url, Object requestData, string requestMethodType = "POST")
         {
             var request = (HttpWebRequest)(WebRequest.Create(Url));
             request.Method = requestMethodType;
